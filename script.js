@@ -153,11 +153,11 @@ function executeCommand(command) {
             break;
         case 'skills':
             outputContainer.innerHTML += `<br><Br><p class="orange">My Skills: <hr></p>
-            Full-Stack Web Apps Development<br>
+            Full-Stack Development<br>
+            API development & Integrations<br>
             System Administration<br>
             Web Scraping<br>
             Automation<br>
-            API Integrations
             <br><br>
 
             <p class="orange">Languages: <hr></p>
