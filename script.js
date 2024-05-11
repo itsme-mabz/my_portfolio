@@ -112,7 +112,16 @@ function executeCommand(command) {
             For a list of available Commands, type <span class="orange">\`help\`</span>.</p>`;
             break;
         case 'about':
-            outputContainer.innerHTML += `<p>About me: Lorem ipsum dolor sit amet...</p>`;
+            outputContainer.innerHTML += `<p>Greetings, I am Muhammad Ahmed!<br>
+
+            I'm a Curious Engineer and a Linux Lover.<br>
+            
+            I love writing code. Ever since writing my first program in Python and manipulating<br>
+            it to produce the desired output, I have been obsessed with the idea of using<Br>
+            software to solve practical problems.<br>
+            I enjoy digging into problems, generating new ideas, working with awesome people, and<br>
+            devising feasible solutions to broadly relevant problems with the intersection of creativity & technology.<br><br><b>#keep building...</b>
+            </p>`;
             break;
         case 'portfolio':
             outputContainer.innerHTML += `<p>Portfolio: Check out my projects...</p>`;
